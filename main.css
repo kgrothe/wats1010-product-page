@@ -3,6 +3,23 @@
 
 body {
     padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+    padding-bottom: 20px;    
+}
+
+.jumbotron { 
+  background: lightblue;
+}
+
+h1 {text-align: center;}
+
+nav.navbar {
+  background-color: #2b4467;
+}
+
+nav.navbar {
+  position-fixed-top;
+}
+
+img.card-img {
+  width: 50%;
 }

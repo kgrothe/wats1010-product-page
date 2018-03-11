@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
   <!-- End Bootstrap CSS Framework -->
-  <link href="assets/styles.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
   <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -30,8 +30,6 @@
 
 <body>
   <!-- Navigation -->
-
-  <!--  <nav class="navbar navbar-light" style="bg-light;"> -->
 
   <nav class="navbar navbar-default navbar-fixed-top" style="bg-light">
 
@@ -51,10 +49,6 @@
 
   <!-- Navbar content -->
 
-
-
-
-
   <!-- Note: If you do not see a lamp icon in the heading below
              when you view this file in a web browser, then there is an issue
              with how Bootstrap is linked to this page. 
@@ -67,21 +61,26 @@
   <div class="jumbotron">
 
     <div class="container">
-      
+
       <h1>hello</h1>
 
     </div>
   </div>
   <!-- TODO: Create an area to put the long product description. -->
 
+  <section id="about">
+  <div class="container">
+        <h1>About API Super Store</h1>
+  </div>
+  
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
-        <h1>About API Super Store</h1>
+      <div class="col-sm-8">
+    
         <p>Stop searching for APIs, save time, save money!</p>
         <p>API Superstore provides fast access to all the best and latest APIs.</p>
-        <p>Successful businesses recognize the need to utilize the latest APIs. Application Programming Interfaces (APIs) allow software applications to share date and communicate with each other – to connect to all the services your users expect!</p>
-        <p>From e-commerce to maps, API Superstore conveniently compiles all the APIs that your business needs to keep your users happy.</p>
+        <p>Successful businesses recognize the need to utilize the latest APIs. Application Programming Interfaces (APIs) allow software applications to share data and communicate with each other – to connect to all the services your users expect!</p>
+        <p>From e-commerce to maps, API Superstore conveniently compiles all the APIs that your business needs to keep your customers happy.</p>
         <p>
           Just 3 steps and be on the way to revolutionizing the way you do business!
 
@@ -89,15 +88,16 @@
 
       </div>
 
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <h3>Image</h3>
+        <img src="design/time money businesswoman.jpg">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
       </div>
 
     </div>
   </div>
-
+  </section>
   <!-- Features and Video --->
 
   <div class="container">
@@ -109,114 +109,150 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h3>About API Super Store</h3>
-        <p>Stop searching for APIs, save time, save money!</p>
-        <p>API Superstore provides fast access to all the best and latest APIs.</p>
-        <p>Successful businesses recognize the need to utilize the latest APIs. Application Programming Interfaces (APIs) allow software applications to share date and communicate with each other – to connect to all the services your users expect!</p>
-        <p>From e-commerce to maps, API Superstore conveniently compiles all the APIs that your business needs to keep your users happy.</p>
-        <p>
-          Just 3 steps and be on the way to revolutionizing the way you do business!
-
-        </p>
-
+        <h3>Features</h3>
+        
+        <ul class="list-unstyled">
+  <li>Lorem ipsum dolor sit amet</li>
+  <li>Consectetur adipiscing elit</li>
+  <li>Integer molestie lorem at massa</li>
+  <li>Facilisis in pretium nisl aliquet</li>
+  <li>Nulla volutpat aliquam velit
+   
+</ul>
+        
       </div>
 
+
+
       <div class="col-sm-6">
+
+
+
         <h3>Video</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <!-- TODO: Create an area to put customer testimonials. -->
+
+    <div class="container">
+      <div class="row">
+
+<section id="testimonials">
+        <h1>
+          What our Customers are Saying
+        </h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <section class="card mb-2">
+            <div class="card-body">
+
+
+              <img class="card-img img-fluid" src="design/customer.jpg">
+              
+              <blockquote class="blockquote text-left">
+                <p>So great</p>
+                <footer class="blockquote-footer">Jane C.
+                  <p>
+                    Excellent Business Owner
+                  </p>
+                </footer>
+              </blockquote>
+
+            </div>
+        </div>
+
+        </section>
+
+
+
+        <div class="col-sm-4">
+          <section class="card mb-2">
+            <div class="card-body">
+
+
+              <img class="card-img img-fluid" src="design/customer.jpg">
+              
+              <blockquote class="blockquote text-left">
+                <p>So great</p>
+                <footer class="blockquote-footer">Jane C.
+                  <p>
+                    Another Excellent Business Owner
+                  </p>
+                </footer>
+              </blockquote>
+
+          </section>
+          </div>
+
+          <div class="col-sm-4">
+            <section class="card mb-2">
+              <div class="card-body">
+
+
+                <img class="card-img img-fluid" src="design/customer.jpg">
+                
+                <blockquote class="blockquote text-left">
+                  <p>So great</p>
+                  <footer class="blockquote-footer">Jane C.
+                    <p>
+                      Yet Another Excellent Business Owner
+                    </p>
+                  </footer>
+                </blockquote>
+            </section>
+            </div>
+          </div>
+
+          </section>
+         
+<!-- Footer -->
+
+  <footer class="py-5 bg-dark>">
+
+
+
+    <div class="container">
+
+      <div class="footer-flex">
+
+
+
+
+
+        <p class="footer-item-flex text-white">API Super Store 2018</p>
+
+        
+
       </div>
 
     </div>
-  </div>
+    
+
+  </footer>
 
 
-  <!-- TODO: Create an area to put customer testimonials. -->
 
-  <div class="container">
-    <h1>
-      Testimonials
-    </h1>
-  </div>
+          <!-- TODO: Create an area to show features. -->
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <section class="card mb-2">
-          <div class="card-body">
-
-
-            <img class="card-img img-fluid" src="design/customer.jpg">
-            <h4 class="card-title">
-              Customer 1
-            </h4>
-          </div>
-
-        </section>
-      </div>
-
-
-      <div class="col-sm-4">
-        <section class="card mb-2">
-          <div class="card-body">
-
-
-            <img class="card-img img-fluid" src="design/customer.jpg">
-            <h4 class="card-title">
-              Customer 2
-            </h4>
-          </div>
-
-        </section>
-      </div>
-
-      <div class="col-sm-4">
-        <section class="card mb-2">
-          <div class="card-body">
-
-
-            <img class="card-img img-fluid" src="design/customer.jpg">
-            <h4 class="card-title">
-              Customer 3
-            </h4>
-          </div>
-
-        </section>
-      </div>
-    </div>
-  </div>
-
-  <!-- <div class="container">
-   <div class="row">
-      <div class="col-sm-6">
-   <section class="card mb-2">
-     <div class="card-body">
-       
-     
-    <img class="card-img img-fluid" src="design/customer.jpg">
-     <h4 class="card-title">
-       Customer 1
-     </h4>
-     </div>   
-      
-</section>
-     </div>
-   </div>
-  </div>
-  
-  -->
-  
-
-
-  <!-- TODO: Create an area to show features. -->
-
-  <!-- TODO: Create an area to show company contact info (phone,
+          <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
 
-  <!-- TODO: Create an area that allows users to Share links to the
+          <!-- TODO: Create an area that allows users to Share links to the
              page. -->
 
-  <!-- TODO: Create a call to action link to get users to sign up for the
+          <!-- TODO: Create a call to action link to get users to sign up for the
              service. -->
 </body>
 
