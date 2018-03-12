@@ -1,25 +1,27 @@
 /* Styles for Product Page Customization */
+
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;    
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
-.jumbotron { 
-  background: lightblue;
+.jumbotron {
+  background-image: url("design/mobiledevices.jpg");
+  background-repeat: repeat-x;
 }
 
-h1 {text-align: center;}
-
-nav.navbar {
-  background-color: #2b4467;
-}
-
-nav.navbar {
-  position-fixed-top;
+h1 {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 img.card-img {
-  width: 50%;
+  width: 40%;
+  }
+
+blockquote {
+  font-style: italic;
+  font-size: small;
 }

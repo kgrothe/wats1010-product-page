@@ -5,21 +5,22 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- link favicon -->
+  
   <!-- TODO: Add proper head tag to provide a page description for search
              engines. -->
   <title>API Superstore</title>
-  <!-- Bootstrap CSS Framework -->
-  <!-- You can remove the ``link`` tags below if you don't want to use
-             Bootstrap with your site. If you choose to use Bootstrap, be sure
-             to reference the resources and the Bootstrap official
-             documentation: http://getbootstrap.com.
 
+  <!-- 
              Please Note: This repo does not include the Bootstrap Javascript
              plugins, so you cannot use the features documented under
              "Javascript" on the Bootstrap documentation site. -->
+
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
   <!-- End Bootstrap CSS Framework -->
+
   <link href="main.css" rel="stylesheet">
   <!-- TODO: replace favicon, apple-touch-icon, and tile images to best
              support bookmarking. -->
@@ -31,56 +32,58 @@
 <body>
   <!-- Navigation -->
 
-  <nav class="navbar navbar-default navbar-fixed-top" style="bg-light">
+
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" style="bg-light">
 
 
+      <div class="container">
 
-    <div class="container">
 
-      <a class="navbar-brand" href="#">API Super Store</a>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About</a></li>
-        <li><a href="#testimonials">Testomonials</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shop Now</a></li>
-      </ul>
+        <a class="navbar-brand" href="#">API Super Store</a>
+
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testomonials</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#shop"><span class="glyphicon glyphicon-shopping-cart"></span> Shop Now</a></li>
+        </ul>
+
+    </nav>
     </div>
-  </nav>
+    </div>
+  </header>
 
-  <!-- Navbar content -->
-
-  <!-- Note: If you do not see a lamp icon in the heading below
-             when you view this file in a web browser, then there is an issue
-             with how Bootstrap is linked to this page. 
-        <h1><span class="glyphicon glyphicon-lamp"></span> Hello World!</h1>-->
 
   <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
 
-  <!-- TODO: Create an area to put the explainer video. -->
+
   <div class="jumbotron">
 
-    <div class="container">
+    <div class="container-fluid">
 
-      <h1>hello</h1>
+      <section id="about">
 
+
+      </section>
     </div>
   </div>
-  <!-- TODO: Create an area to put the long product description. -->
 
-  <section id="about">
   <div class="container">
-        <h1>About API Super Store</h1>
+    <h1>What is API Super Store?</h1>
   </div>
-  
+
   <div class="container">
     <div class="row">
-      <div class="col-sm-8">
-    
+      <div class="col-sm-6">
+
         <p>Stop searching for APIs, save time, save money!</p>
-        <p>API Superstore provides fast access to all the best and latest APIs.</p>
-        <p>Successful businesses recognize the need to utilize the latest APIs. Application Programming Interfaces (APIs) allow software applications to share data and communicate with each other – to connect to all the services your users expect!</p>
-        <p>From e-commerce to maps, API Superstore conveniently compiles all the APIs that your business needs to keep your customers happy.</p>
+        <p>API Super Store provides fast access to all the best and latest APIs.</p>
+        <p>Successful businesses recognize the need to utilize the latest APIs. Application Programming Interfaces (APIs) allow software applications to share data and communicate with each other – to connect to all the services your customers expect!</p>
+        <p>From e-commerce to maps, API Super Store conveniently compiles all the APIs that your business needs to keep your customers happy.</p>
         <p>
           Just 3 steps and be on the way to revolutionizing the way you do business!
 
@@ -88,11 +91,14 @@
 
       </div>
 
+      <div class="col-sm-2">
+
+      </div>
+
       <div class="col-sm-4">
-        <h3>Image</h3>
-        <img src="design/time money businesswoman.jpg">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+
+        <img src="design/PiggyBank.jpg">
+
       </div>
 
     </div>
@@ -102,35 +108,30 @@
 
   <div class="container">
     <h1>
-      Watch Video
+      Learn More
     </h1>
   </div>
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-4">
         <h3>Features</h3>
-        
-        <ul class="list-unstyled">
-  <li>Lorem ipsum dolor sit amet</li>
-  <li>Consectetur adipiscing elit</li>
-  <li>Integer molestie lorem at massa</li>
-  <li>Facilisis in pretium nisl aliquet</li>
-  <li>Nulla volutpat aliquam velit
-   
-</ul>
-        
+
+        <ul class="list-group">
+          <li class="list-group-item"><span class="glyphicon glyphicon-star"></span> All the Best APIs</li>
+          <li class="list-group-item"><span class="glyphicon glyphicon-star"></span> Conveniently Categorized</li>
+          <li class="list-group-item"><span class="glyphicon glyphicon-star"></span> An Enjoyable Shopping Experience</li>
+          <li class="list-group-item"><span class="glyphicon glyphicon-star"></span> Save Time, Save Money!</li>
+          <li class="list-group-item"><span class="glyphicon glyphicon-star"></span> Easy Payment Options</li>
+          <li class="list-group-item"><a href=#shop><span class="glyphicon glyphicon-shopping-cart"></span>  Shop Now!</a></li>
+        </ul>
+
+      </div>
+      <div class="col-sm-2">
       </div>
 
-
-
       <div class="col-sm-6">
 
-
-
-        <h3>Video</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
 
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" <iframe width="560" height="315" src="https://www.youtube.com/embed/L48g1ZWLMdo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -141,28 +142,27 @@
       </div>
     </div>
 
-    <!-- TODO: Create an area to put customer testimonials. -->
+    <!-- testimonials -->
 
     <div class="container">
       <div class="row">
-
-<section id="testimonials">
-        <h1>
-          What our Customers are Saying
-        </h1>
+        <section id="testimonials">
+          <h1>
+            Our Customers Love Us
+          </h1>
       </div>
     </div>
+
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
           <section class="card mb-2">
             <div class="card-body">
 
+              <img class="card-img img-fluid" src="design/customer1.jpg">
 
-              <img class="card-img img-fluid" src="design/customer.jpg">
-              
               <blockquote class="blockquote text-left">
-                <p>So great</p>
+                <p>"All the time I used to spend searching for APIs I can now use for improving my company's products and services. Thanks API Super Store!"</p>
                 <footer class="blockquote-footer">Jane C.
                   <p>
                     Excellent Business Owner
@@ -171,22 +171,20 @@
               </blockquote>
 
             </div>
+
+          </section>
         </div>
-
-        </section>
-
-
-
         <div class="col-sm-4">
           <section class="card mb-2">
             <div class="card-body">
 
 
-              <img class="card-img img-fluid" src="design/customer.jpg">
-              
+              <img class="card-img img-fluid" src="design/customer1.jpg">
+
               <blockquote class="blockquote text-left">
-                <p>So great</p>
-                <footer class="blockquote-footer">Jane C.
+                <p>"I would recommend the API Super Store to any business owner. Imagine having a staff person who dedicates all their time to finding the right APIs for you, and for a fraction of the cost. This is exactly what the API Super Store service
+                  provides. I would never go back to searching on my own."</p>
+                <footer class="blockquote-footer">Sam C.
                   <p>
                     Another Excellent Business Owner
                   </p>
@@ -201,11 +199,11 @@
               <div class="card-body">
 
 
-                <img class="card-img img-fluid" src="design/customer.jpg">
-                
+                <img class="card-img img-fluid" src="design/customer1.jpg">
+
                 <blockquote class="blockquote text-left">
-                  <p>So great</p>
-                  <footer class="blockquote-footer">Jane C.
+                  <p>API Super Store provides an excellent service that has helped my business tremendously. They make finding the right APIs an enjoyable experience. I highly recommend you give API Super Store a try.</p>
+                  <footer class="blockquote-footer">Alex V.
                     <p>
                       Yet Another Excellent Business Owner
                     </p>
@@ -213,38 +211,51 @@
                 </blockquote>
             </section>
             </div>
+
           </div>
 
           </section>
-         
-<!-- Footer -->
-
-  <footer class="py-5 bg-dark>">
-
-
-
-    <div class="container">
-
-      <div class="footer-flex">
-
-
-
-
-
-        <p class="footer-item-flex text-white">API Super Store 2018</p>
-
         
-
+        <!--call to action-->
+        
+        <div class="container">
+          <div class="col-md-6">
+            <button type="button" class="btn btn-success btn-large">Shop Now!</button>        
       </div>
+        </div>
+        
+        <!--sharing links-->
+        
+        <div class="container">
+          
+          
+        </div>
+        
+        <!--contact info--->
+        
+        <div class="container">
+          <section id="contact"></section>
+        </div>                      
+        
+          <!-- Footer -->
+ 
 
-    </div>
-    
+            <div class="container-fluid">
 
-  </footer>
+              <div class="footer">
+
+                <p>API Super Store 2018</p>
+                <p><a href="https:/getbootstrap.com">Created with Bootstrap 4</a>
+
+                </p>
+                
+              </div>
+
+            </div>
 
 
+          </footer>
 
-          <!-- TODO: Create an area to show features. -->
 
           <!-- TODO: Create an area to show company contact info (phone,
              location, etc.) -->
