@@ -18,10 +18,20 @@ h1 {
 }
 
 img.card-img {
-  width: 40%;
+  width: 60%;
   }
+img.card-img {position: relative;
+  left: 50px;}
 
 blockquote {
   font-style: italic;
   font-size: small;
+}
+#shop {
+  text-align: center;}
+}
+
+
+#contact {
+  background-color: pink;
 }
