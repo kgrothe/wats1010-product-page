@@ -5,33 +5,80 @@
 body {
   padding-top: 30px;
   padding-bottom: 20px;
+  
+   background-image: url("design/tiles.png");
+  
+   background-repeat: repeat;
+ 
+  
+  
+}
+div.container {background-color: white;}
+
+p {
+  background-color:white;
 }
 
 .jumbotron {
   background-image: url("design/mobiledevices.jpg");
   background-repeat: repeat-x;
-}
+ }
 
 h1 {
+  background-color: white;
   text-align: center;
+  padding-top: 30px;
   padding-bottom: 30px;
+  
+}
+
+
+a.fa:hover {
+    opacity: 0.7;
+}
+a.fa:active {
+  
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 img.card-img {
-  width: 60%;
+  width: 40%;
+  position: relative;
+  left: 25%;
   }
-img.card-img {position: relative;
-  left: 50px;}
+
 
 blockquote {
+  padding: 20px 30px 30px 20px;
   font-style: italic;
   font-size: small;
+}
+
+.social {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  
+}
+
+a.fa {
+  padding-right: 10px;
+  
+   
 }
 #shop {
   text-align: center;}
 }
 
+a.btn:hover {
+  background-color: blueviolet;
+}
 
 #contact {
-  background-color: pink;
+  padding-bottom: 30px;
+}
+
+div.footer {
+  text-align: center;
 }
