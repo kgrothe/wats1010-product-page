@@ -26,8 +26,8 @@ body {
 
 div.container {
   background-color: white;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 p {
@@ -40,17 +40,48 @@ p {
 }
 
 h1 {
-  background-color: white;
+  background-color: #caeec3;
+  color: #055b9c;
   text-align: center;
+  font-weight: bold;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.list-group {
+p.lead {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #055b9c;
+  background-color: #caeec3;
   text-align: center;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: #055b9c;
+  font-weight: bold;
+}
+
+h5 {
+  color: #055b9c;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+li.list-group-item {
+  padding-left: 25%;
 }
 
 /**Testimonials**/
+
+#testimonials {
+  margin-bottom: 20px;
+}
 
 img.card-img {
   width: 40%;
@@ -72,13 +103,14 @@ blockquote {
   text-align: center;
 }
 
-
 /**Sharing Links**/
 
 #social {
+  margin-top: 20px;
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 60px;
   padding-bottom: 50px;
+  background-color: #caeec3;
 }
 
 a.fa {
@@ -102,4 +134,5 @@ a.fa:active {
 
 div.footer {
   text-align: center;
+  color: #2281c9;
 }
