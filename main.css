@@ -3,6 +3,7 @@
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
 body {
+  position: relative;
   padding-top: 30px;
   padding-bottom: 20px;
   background-image: url("design/tiles.png");
@@ -24,6 +25,54 @@ body {
   }
 }
 
+@media screen and (max-width: 360px) {
+  .h1 {
+    font-size: .50em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .h2 {
+    font-size: .50em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #about img {
+    display: none;
+  }
+}
+
+div.navbar-brand {
+  padding-bottom: 50px;
+}
+
+/*nav.navbar {
+  background-color: #6ab23e;*/
+
+}
+
+nav.navbar {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: blue;
+}
+
+.nav-pills {
+  background-color: #caeec3;
+}
+
+.nav-pills:hover {
+  background-color: #87dcc8;
+}
+
 div.container {
   background-color: white;
   padding-left: 30px;
@@ -32,11 +81,6 @@ div.container {
 
 p {
   background-color: white;
-}
-
-.jumbotron {
-  background-image: url("design/mobiledevices.jpg");
-  background-repeat: repeat-x;
 }
 
 h1 {
@@ -106,8 +150,8 @@ blockquote {
 /**Call to Action**/
 
 #shop {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 5px;
   text-align: center;
 }
 
