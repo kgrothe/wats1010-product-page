@@ -4,16 +4,34 @@
 
 body {
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 20px;
   background-image: url("design/tiles.png");
   background-repeat: repeat;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 1024px) {
   body {
     background-image: none;
     background-color: lightblue;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 0.80em;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h2 {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #about img {
+    display: none;
   }
 }
 
@@ -25,53 +43,37 @@ body {
   }
 }
 
-@media screen and (max-width: 360px) {
-  .h1 {
-    font-size: .50em;
-  }
-}
+/* Navigation */
 
-@media screen and (max-width: 360px) {
-  .h2 {
-    font-size: .50em;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  #about img {
-    display: none;
-  }
-}
-
-div.navbar-brand {
-  padding-bottom: 50px;
-}
-
-/*nav.navbar {
-  background-color: #6ab23e;*/
-
-}
 
 nav.navbar {
-  padding-left: 150px;
-  padding-right: 150px;
+  margin-top: 20px;
+  padding-top: 0px;
+  padding-right: 250px;
 }
+
 
 a.nav-link {
   color: white;
 }
 
 a.nav-link:hover {
-  color: blue;
+  color: #055b9c; 
 }
 
 .nav-pills {
-  background-color: #caeec3;
+  background-color: #6c757d;
+}
+
+a.nav-pills:active {
+  background-color: #055b9c;
 }
 
 .nav-pills:hover {
   background-color: #87dcc8;
 }
+
+/* Content */
 
 div.container {
   background-color: white;
@@ -81,27 +83,38 @@ div.container {
 
 p {
   background-color: white;
+  
+}
+
+#about p {
+  padding-left: 30px;
 }
 
 h1 {
-  background-color: #caeec3;
+  background-color: #b6e1ff;
   color: #055b9c;
-  text-align: center;
+ font-family: 'Mina', sans-serif;
   font-weight: bold;
+  margin-top: 0px;
   padding-top: 30px;
+  padding-left: 30px;
   padding-bottom: 30px;
 }
 
+
 p.lead {
+  font-family: 'Mina', sans-serif;
   font-weight: bold;
   padding-top: 20px;
 }
 
 h2 {
   color: #055b9c;
-  background-color: #caeec3;
+  font-family:'Mina', sans-serif;
+  text-size: larger;
+  background-color: #b6e1ff;
   text-align: center;
-  font-weight: bold;
+
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -123,13 +136,13 @@ h5 {
   left: 100px;
 }
 
-/**Features**/
+/* Features */
 
 li.list-group-item {
   padding-left: 25%;
 }
 
-/**Testimonials**/
+/* Testimonials */
 
 #testimonials {
   margin-bottom: 20px;
@@ -147,7 +160,7 @@ blockquote {
   font-size: small;
 }
 
-/**Call to Action**/
+/* Call to Action */
 
 #shop {
   padding-top: 15px;
@@ -155,16 +168,14 @@ blockquote {
   text-align: center;
 }
 
-/**Sharing Links**/
+/* Sharing Links */
 
 #social {
   margin-top: 20px;
   margin-left: 50%;
   margin-bottom: 20px;
-  padding-top: 30px;
-  padding-left: 60px;
-  padding-bottom: 50px;
-  background-color: #caeec3;
+  padding: 30px 0px 60px 50px;
+  background-color: #b7f0e3;
 }
 
 a.fa {
@@ -180,10 +191,10 @@ a.fa:active {
   transform: translateY(4px);
 }
 
-/**Contact Info**/
+/* Contact Info */
 
 #contact {
-  padding-bottom: 30px;
+ padding-bottom: 30px;
 }
 
 div.footer {

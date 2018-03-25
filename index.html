@@ -9,23 +9,13 @@
 
   <title>API Super Store</title>
 
-    
-  
-  <!-- 
-             Please Note: This repo does not include the Bootstrap Javascript
-             plugins, so you cannot use the features documented under
-             "Javascript" on the Bootstrap documentation site. -->
-
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">  
-  
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.css">
-
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
   <!-- End Bootstrap CSS Framework -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Itim|Satisfy|Boogaloo|Mina|Neucha" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -37,61 +27,36 @@
 
   <!---Navigation--->
 
-  
-   
-   <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top bg-light">-->
 
-  
+  <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top">
-    
-     
-<div class="container">
-          
-         
-           
-            
-          
-        <div class="navbar-brand"><img src="design/APIlogo.png" alt="logo"> </div>
+    <div class="container-fluid">
 
-           
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-              </button>
-           
-           
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              
-            
-              
-              
-              
-              <ul class="nav nav-pills nabar-nav navbar-right">
-                
-                         
- 
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="nav nav-pills nabar-nav navbar-right">
+
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
-                 <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="#contact">Contact Us</a>
           </li>
-          
-<li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="#shop"><span class="glyphicon glyphicon-shopping-cart"></span> Shop Now</a>
           </li>
-               
+
         </ul>
       </div>
-           </div>
-           </nav>       
-   
-           
-  
-    
+    </div>
+  </nav>
 
 
   <div class="container">
@@ -145,8 +110,6 @@
         </ul>
 
       </div>
-      <!--<div class="col-sm-2">
-      </div>-->
 
       <div class="col-sm-6">
 
@@ -161,13 +124,13 @@
 
   <!-- testimonials -->
 
- <div class="container">
+  <div class="container">
     <section id="testimonials">
- 
-      
-        <h2>
-          Our Customers Love Us
-        </h2>
+
+
+      <h2>
+        Our Customers <i class="fa fa-heart"></i> Us
+      </h2>
 
     </section>
   </div>
@@ -198,7 +161,7 @@
           <div class="card-body">
 
 
-            <img class="card-img img-rounded" src="design/customer1.jpg" alt="customer image">
+            <img class="card-img img-rounded img-responsive" src="design/customer1.jpg" alt="customer image">
 
             <blockquote class="blockquote text-left">
               <p>"I would recommend the API Super Store to any business owner. Imagine having a staff person who dedicates all their time to finding the right APIs for you, and for a fraction of the cost. This is exactly what the API Super Store service
@@ -237,12 +200,12 @@
     <!--call to action-->
 
   </div>
-<section id="shop">
-   
+  <section id="shop">
 
-        <a class="btn btn-success btn-large" href="#">   Shop Now!  </a>
-      
-    </section>
+
+    <a class="btn btn-success btn-large" href="#">   Shop Now!  </a>
+
+  </section>
 
 
   <!--sharing links-->
@@ -269,28 +232,26 @@
 
   </div>
 
-  <!--contact info--->
+  <!--contact info-->
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-3">
+    <section id="contact">
+      <div class="row">
+        <div class="col-md-3">
 
 
-        <section id="contact">
+
 
           <h5>
             Questions? Contact us:
           </h5>
-          <p>
-            <a class="fa fa-envelope-o" style="font-size:36px"></a> mail@api.com
-          </p>
-          <p>
+          <p><a class="fa fa-envelope-o" style="font-size:36px"></a> mail@api.com</p>
+          <p><a class="fa fa-phone" style="font-size:36px;"></a> (206) 123-4567 </p>
 
-            <a class="fa fa-phone" style="font-size:36px;"></a> (206) 123-4567 </p>
 
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
   </div>
 
   <!-- Footer -->
@@ -301,8 +262,8 @@
 
       <p>API Super Store 2018</p>
       <br>An Imaginary Product Page created for WATS 3010 by Katie Grothe
-      <p><a href="https://getbootstrap.com">Created with Bootstrap</a>
-
+      <p>Created with <a href="https://getbootstrap.com">Bootstrap</a>,  
+        <a href="https:fontawesome.com">Font Awesome</a> and <a href="https:fonts.google.com"> Google Fonts </a>
       </p>
 
     </div>
@@ -311,8 +272,8 @@
 
 </body>
 
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </html>
