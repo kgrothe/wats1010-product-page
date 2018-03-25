@@ -19,7 +19,7 @@ body {
 
 @media screen and (max-width: 414px) {
   h1 {
-    font-size: 0.80em;
+    font-size: 0.85em;
   }
 }
 
@@ -47,11 +47,11 @@ body {
 
 
 nav.navbar {
+  
   margin-top: 20px;
   padding-top: 0px;
   padding-right: 250px;
 }
-
 
 a.nav-link {
   color: white;
@@ -66,10 +66,6 @@ a.nav-link:hover {
 }
 
 a.nav-pills:active {
-  background-color: #055b9c;
-}
-
-.nav-pills:hover {
   background-color: #87dcc8;
 }
 
@@ -82,52 +78,53 @@ div.container {
 }
 
 p {
-  background-color: white;
-  
+  background-color: white;  
 }
 
-#about p {
-  padding-left: 30px;
-}
 
 h1 {
-  background-color: #b6e1ff;
-  color: #055b9c;
- font-family: 'Mina', sans-serif;
-  font-weight: bold;
+  background-image: url("design/techno.png");
+  color: white;
+  font-family: 'Mina', sans-serif;
+  font-weight: bolder;
   margin-top: 0px;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-left: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 
 p.lead {
-  font-family: 'Mina', sans-serif;
-  font-weight: bold;
-  padding-top: 20px;
+  font-family: boogaloo; sans-serif;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h2 {
-  color: #055b9c;
+  color: #781416;
   font-family:'Mina', sans-serif;
   text-size: larger;
   background-color: #b6e1ff;
   text-align: center;
-
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 h3 {
-  color: #055b9c;
+  color: #781416;
+  font-family: boogaloo; sans-serif;
   font-weight: bold;
 }
 
 h5 {
-  color: #055b9c;
+  color: #781416;
   font-weight: bold;
   padding-top: 20px;
+}
+
+#about p {
+  padding-left: 30px;
 }
 
 #about img {
@@ -171,11 +168,15 @@ blockquote {
 /* Sharing Links */
 
 #social {
+  background-image: url("design/techno.png");
   margin-top: 20px;
   margin-left: 50%;
   margin-bottom: 20px;
-  padding: 30px 0px 60px 50px;
-  background-color: #b7f0e3;
+  padding: 30px 0px 60px 50px;  
+}
+
+#social h3 {
+  color: darkblue;
 }
 
 a.fa {
@@ -194,10 +195,12 @@ a.fa:active {
 /* Contact Info */
 
 #contact {
- padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 div.footer {
   text-align: center;
-  color: #2281c9;
+  color: #781416;
+  padding-bottom: 20px;
 }
