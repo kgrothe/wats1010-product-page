@@ -45,15 +45,13 @@ body {
 
 /* Navigation */
 
-
-nav.navbar {
-  
+.navbar {
   margin-top: 20px;
-  padding-top: 0px;
+  padding-top: 0;
   padding-right: 250px;
 }
 
-span.navbar-toggler-icon {
+.navbar-toggler-icon {
   width: 4em;
   background-color: whitesmoke;
 }
@@ -63,7 +61,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-  color: #055b9c; 
+  color: #055b9c;
 }
 
 .nav-pills {
@@ -76,7 +74,7 @@ a.nav-pills:active {
 
 /* Content */
 
-div.container {
+.container {
   background-color: white;
   padding-left: 30px;
   padding-right: 30px;
@@ -84,24 +82,23 @@ div.container {
 
 p {
   font-family: 'Mina', sans-serif;
-  background-color: white;  
+  background-color: white;
 }
-
 
 h1 {
   background-image: url("design/techno.png");
   color: white;
   font-family: 'Mina', sans-serif;
   font-weight: bolder;
-  margin-top: 0px;
+  margin-top: 0;
   padding-top: 40px;
   padding-left: 30px;
   padding-bottom: 40px;
 }
 
-
-p.lead {
+.lead {
   font-family: boogaloo, sans-serif;
+  color: darkblue;
   padding-top: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -109,7 +106,7 @@ p.lead {
 
 h2 {
   color: #781416;
-  font-family:'Mina', sans-serif;
+  font-family: 'Mina', sans-serif;
   font-weight: bold;
   background-color: #b6e1ff;
   text-align: center;
@@ -141,7 +138,7 @@ h5 {
 
 /* Features */
 
-li.list-group-item {
+.list-group-item {
   padding-left: 25%;
 }
 
@@ -151,14 +148,14 @@ li.list-group-item {
   margin-bottom: 20px;
 }
 
-img.card-img {
+.card-img {
   width: 40%;
   position: relative;
   left: 25%;
 }
 
 blockquote {
-  padding: 20px 0px 30px 20px;
+  padding: 20px 0 30px 20px;
   font-style: italic;
   font-size: small;
 }
@@ -174,11 +171,10 @@ blockquote {
 /* Sharing Links */
 
 #social {
-  background-image: url("design/techno.png");
   margin-top: 20px;
   margin-left: 50%;
   margin-bottom: 20px;
-  padding: 30px 0px 60px 50px;     
+  padding: 30px 0 60px 50px;
 }
 
 #social h3 {
@@ -186,52 +182,71 @@ blockquote {
 }
 
 #social:hover {
-  background-image: none;  
+  background-image: url("design/techno.png");
 }
 
-a.fa {
+.fa {
   padding-right: 10px;
 }
 
-a.fa:hover {
+.fa:hover {
   opacity: 0.7;
 }
 
-a.fa:active {
+.fa:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-
 /* Contact Info */
 
-
-a.fa.fa-phone:hover {
+.fa-phone:hover {
   animation: shake 0.5s;
   animation-iteration-count: 3;
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
-
 
 #contact {
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
-div.footer {
+.footer {
   text-align: center;
   color: #781416;
   padding-bottom: 20px;
